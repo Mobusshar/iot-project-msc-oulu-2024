@@ -98,9 +98,22 @@ Add your IPV6 instance on the mosquitto.config file
 Start the mosquitto service again 
 
 ```bash
-mosquitto -c mosquitto.conf
+mosquitto -c mosquitto.config
 ```
 
+Here we are making ready another m3 node to do the test
+
+```bash
+make DEFAULT_CHANNEL=20 SERVER_ADDR=2001:660:5307:3000::67 EMCUTE_ID==station0 BOARD=iotlab-m3 -C . clean all
+```
+
+Then flash the node
+
+```bash
+iotlab-node --flash ./bin/iotlab-m3/SensorNode.elf -l grenoble,m3,104
+```
+
+<img width="419" alt="Screenshot 2024-01-31 at 22 25 21" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/057e40aa-735c-4a39-9cf3-e5d420cc4906">
 
 
 
