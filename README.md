@@ -45,6 +45,7 @@ for each subnet, you need to create a route table and so because we have public 
 
 Install docker and install node-red and influxdb on the ec2 instance.
 
+<img width="1440" alt="Screenshot 2024-01-31 at 23 14 04" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/f3527051-1321-4332-a3b0-8b1795747d7a">
 
 ## Testbed Preparation
 ### Connect and go to the Testbed directory /mini-project-1/ and follow the commands
@@ -145,7 +146,6 @@ Consider writing reboot if it says unable to connect
 
 
 
-## Usage
 
 
 ## License
