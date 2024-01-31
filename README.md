@@ -79,6 +79,7 @@ ssh root@node-a8-103
 ```
 
 Check the ifconfig of the A8 node
+
 <img width="724" alt="Screenshot 2024-01-31 at 21 47 21" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/02d6995d-085a-44df-bd2d-00221d3edb8c">
 
 Go into this directory A8/mosquitto_bridge
