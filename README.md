@@ -7,10 +7,8 @@ This project focuses on the transmission of sensor data from the IoT testbed ser
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
-- [Usage](#usage)
 - [License](#license)
 - [Contact](#contact)
-- [Testbed Preparation](#TestbedPreparation)
 
 ## Installation
 
