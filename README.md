@@ -90,8 +90,11 @@ Run the broker
 broker_mqtts config.conf
 ```
 
-Kill the mosquitto in another terminal and stop the service 
+Stop the service in another terminal
 Add your IPV6 instance on the mosquitto.config file
+
+<img width="380" alt="Screenshot 2024-01-31 at 22 02 48" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/0b6e7856-1e87-4943-9d50-a162096f47dc">
+
 Start the mosquitto service again 
 
 ```bash
