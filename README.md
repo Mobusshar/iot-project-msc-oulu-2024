@@ -116,10 +116,15 @@ iotlab-node --flash ./bin/iotlab-m3/SensorNode.elf -l grenoble,m3,104
 <img width="419" alt="Screenshot 2024-01-31 at 22 25 21" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/057e40aa-735c-4a39-9cf3-e5d420cc4906">
 
 
+This is to check the sensor data from the testbed server
 
+```bash
+nc m3-104 20000
+```
 
+Consider writing reboot if it says unable to connect
 
-
+<img width="768" alt="Screenshot 2024-01-31 at 22 34 46" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/a955e497-db78-4141-9e18-eb8d1a158355">
 
 
 
