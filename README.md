@@ -44,6 +44,78 @@ for each subnet, you need to create a route table and so because we have public 
 ### Connect and go to the Testbed directory /mini-project-1/ and follow the commands
 This is to build a router border
 
+```bash
+source /opt/riot.source
+```
+
+To build a border router firmware run this
+
+```bash
+make ETHOS_BAUDRATE=500000 DEFAULT_CHANNEL=11 BOARD=iotlab-m3 -C RIOT/examples/gnrc_border_router clean all
+```
+
+To build a border router firmware run this
+
+```bash
+make ETHOS_BAUDRATE=500000 DEFAULT_CHANNEL=11 BOARD=iotlab-m3 -C RIOT/examples/gnrc_border_router clean all
+```
+
+To flash the border router firmware
+
+```bash
+iotlab-node --flash RIOT/examples/gnrc_border_router/bin/iotlab-m3/gnrc_border_router.elf -l grenoble,m3,100
+```
+
+Set up the Border Router Network by picking an IPv6 address (like 2001:660:5307:3100::/64)
+
+```bash
+sudo ethos_uhcpd.py m3-<node-id> tap0 2001:660:5307:3100::1/64
+```
+
+Now in another terminal ssh into the A8 node
+
+```bash
+ssh root@node-a8-103
+```
+
+Check the ifconfig of the A8 node
+
+
+Go into this directory A8/mosquitto_bridge
+
+Run the broker
+
+```bash
+broker_mqtts config.conf
+```
+
+Kill the mosquitto in another terminal and stop the service 
+Add your IPV6 instance on the mosquitto.config file
+Start the mosquitto service again 
+
+```bash
+mosquitto -c mosquitto.conf
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Usage
