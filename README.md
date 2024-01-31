@@ -2,10 +2,10 @@
 
 ## Description
 
-In this
+This project focuses on the transmission of sensor data from the IoT testbed server to a cloud-based storage system. The primary objective is to establish a seamless and efficient communication channel that enables the transfer of valuable sensor information from the IoT testbed to the cloud infrastructure. By implementing this connectivity, the project aims to facilitate centralized storage and analysis of sensor data, enhancing accessibility and scalability for future applications and research endeavors within the Internet of Things (IoT) domain.
 
 ## Table of Contents
-
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -18,6 +18,7 @@ In this
 ```bash
 git clone git@github.com:Mobusshar/iot-project-msc-oulu-2024.git
 ```
+
 # iot-project
 ## AWS SETUP
 For the last part of the project, we need to setup an AWS  and after that we have a server to get data from the iot-testbed.
@@ -40,7 +41,10 @@ for each subnet, you need to create a route table and so because we have public 
 ## at the end it will look something like this after you launch instance again
 ![image](https://github.com/Damonmehrpour/iot-project/assets/60698413/0a135a0b-aff9-441b-8c09-3d89b010362d)
 
- 
+### Connect and go to the Testbed directory /mini-project-1/ and follow the commands
+This is to build a router border
+
+
 
 ## Usage
 
