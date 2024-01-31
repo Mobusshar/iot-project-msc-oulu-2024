@@ -50,7 +50,7 @@ MIT License
 
 ## Contact
 Merged Group Number 29 & 40
-### Md Mobusshar Islam
+### Md Mobusshar Islam (2305578)
 Email: mislam23@student.oulu.fi
 
 ### Mahdi Mehrpour Moghadam
