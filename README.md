@@ -67,8 +67,17 @@ Test the docker container by this command
 sudo docker run hello-world
 ```
 
-Install node-red and influxdb on the ec2 instance.
+Install node-red container in the EC2 instance by using this command 
 
+```bash
+docker run -it -p 1880:1880 -v node_red_data:/data --name mynodered nodered/node-red
+```
+
+Install influxdb container on the ec2 instance
+
+```bash
+docker run --detach --name influxdb -p 8086:8086 influxdb:2.2.0
+```
 
 
 <img width="1440" alt="Screenshot 2024-01-31 at 23 14 04" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/f3527051-1321-4332-a3b0-8b1795747d7a">
