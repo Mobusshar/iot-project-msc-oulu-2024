@@ -87,6 +87,7 @@ docker run --detach --name influxdb -p 8086:8086 influxdb:2.2.0
 
 <img width="1148" alt="Screenshot 2024-02-11 at 7 11 30" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/d46f274a-f73b-47b1-843d-33ab3961bafe">
 
+## These three node ids will be used later in the commands so please replace <node-id> with your created node ID from the IoT-test server
 
 ##Go to the Testbed directory /mini-project-1/main/ and follow the commands below
 
