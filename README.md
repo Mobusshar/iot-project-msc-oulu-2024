@@ -67,12 +67,6 @@ To build a border router firmware run this
 make ETHOS_BAUDRATE=500000 DEFAULT_CHANNEL=11 BOARD=iotlab-m3 -C RIOT/examples/gnrc_border_router clean all
 ```
 
-To build a border router firmware run this
-
-```bash
-make ETHOS_BAUDRATE=500000 DEFAULT_CHANNEL=11 BOARD=iotlab-m3 -C RIOT/examples/gnrc_border_router clean all
-```
-
 To flash the border router firmware
 
 ```bash
