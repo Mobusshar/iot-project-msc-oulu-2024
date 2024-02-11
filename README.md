@@ -18,7 +18,7 @@ This project focuses on the transmission of sensor data from the IoT testbed ser
 git clone git@github.com:Mobusshar/iot-project-msc-oulu-2024.git
 ```
 
-###Clone the RIOT server as well using this command
+### Clone the RIOT server as well using this command
 
 ```bash
 git clone https://github.com/RIOT-OS/RIOT.git
@@ -108,7 +108,7 @@ docker run --detach --name influxdb -p 8086:8086 influxdb:2.2.0
 
 ##Go to the Testbed directory /mini-project-1/main/ and follow the commands below
 
-###To build a router border follow this
+### To build a router border follow this
 
 ```bash
 source /opt/riot.source
