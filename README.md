@@ -50,7 +50,6 @@ for each subnet, you need to create a route table.
 
 
 ## After Setting up the EC2 instance on AWS
-<img width="852" alt="Screenshot 2024-01-31 at 22 44 03" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/7957fc6c-4b56-4745-a9d2-5d1ff8550be7">
 
 Now you can get access to the EC2 instance and it is ready
 
