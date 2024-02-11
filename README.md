@@ -64,9 +64,10 @@ Install docker and install node-red and influxdb on the ec2 instance.
 
 <img width="1148" alt="Screenshot 2024-02-11 at 7 11 30" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/d46f274a-f73b-47b1-843d-33ab3961bafe">
 
-and go to the Testbed directory /mini-project-1/main/ and follow the commands below
 
-###This is to build a router border
+##Go to the Testbed directory /mini-project-1/main/ and follow the commands below
+
+###To build a router border follow this
 
 ```bash
 source /opt/riot.source
@@ -75,13 +76,13 @@ source /opt/riot.source
 To build a border router firmware run this
 
 ```bash
-make ETHOS_BAUDRATE=500000 DEFAULT_CHANNEL=11 BOARD=iotlab-m3 -C RIOT/examples/gnrc_border_router clean all
+make ETHOS_BAUDRATE=500000 DEFAULT_CHANNEL=<channel> BOARD=iotlab-m3 -C RIOT/examples/gnrc_border_router clean all
 ```
 
 To flash the border router firmware
 
 ```bash
-iotlab-node --flash RIOT/examples/gnrc_border_router/bin/iotlab-m3/gnrc_border_router.elf -l grenoble,m3,100
+iotlab-node --flash RIOT/examples/gnrc_border_router/bin/iotlab-m3/gnrc_border_router.elf -l grenoble,m3,<node-id>
 ```
 
 Set up the Border Router Network by picking an IPv6 address (like 2001:660:5307:3100::/64)
@@ -93,7 +94,7 @@ sudo ethos_uhcpd.py m3-<node-id> tap0 2001:660:5307:3100::1/64
 Now in another terminal ssh into the A8 node
 
 ```bash
-ssh root@node-a8-103
+ssh root@node-a8-<node-id>
 ```
 
 Check the ifconfig of the A8 node
@@ -122,13 +123,13 @@ mosquitto -c mosquitto.config
 Here we are making ready another m3 node to do the test
 
 ```bash
-make DEFAULT_CHANNEL=20 SERVER_ADDR=2001:660:5307:3000::67 EMCUTE_ID==station0 BOARD=iotlab-m3 -C . clean all
+make DEFAULT_CHANNEL=<channel> SERVER_ADDR=2001:660:5307:3000::67 EMCUTE_ID==station0 BOARD=iotlab-m3 -C . clean all
 ```
 
-Then flash the node
+Then flash the other m3 node
 
 ```bash
-iotlab-node --flash ./bin/iotlab-m3/SensorNode.elf -l grenoble,m3,104
+iotlab-node --flash ./bin/iotlab-m3/SensorNode.elf -l grenoble,m3,<node-id>
 ```
 
 <img width="419" alt="Screenshot 2024-01-31 at 22 25 21" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/057e40aa-735c-4a39-9cf3-e5d420cc4906">
@@ -142,7 +143,7 @@ nc m3-104 20000
 
 Consider writing reboot if it says unable to connect
 
-<img width="768" alt="Screenshot 2024-01-31 at 22 34 46" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/a955e497-db78-4141-9e18-eb8d1a158355">
+
 
 
 
