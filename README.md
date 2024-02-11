@@ -35,13 +35,19 @@ We created two subnets one for the public for apps and everything that can be pu
 
 ## Third step, Launch Stance
 So you need an internet gateway before the instance works.
-![image](https://github.com/Damonmehrpour/iot-project/assets/60698413/19d9c6f4-0070-42cd-84ef-fae200b4dfb3)
+
+<img width="1438" alt="Screenshot 2024-02-11 at 7 38 24" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/0791d83b-7e69-42e4-9be1-0e407fe545c6">
+
 Then you need to attach VPC to the Internet gateway but there will be a last step before you set things up and it is :
 ## Last step, Route table
-for each subnet, you need to create a route table and so because we have public and private subnets, and in that case, we need a public and private route table. 
-![image](https://github.com/Damonmehrpour/iot-project/assets/60698413/259f9927-04ba-4a65-af1a-f45f667b14f7)
-## At the end it will look something like this after you launch the instance again
-![image](https://github.com/Damonmehrpour/iot-project/assets/60698413/0a135a0b-aff9-441b-8c09-3d89b010362d)
+for each subnet, you need to create a route table. 
+
+<img width="1438" alt="Screenshot 2024-02-11 at 7 44 43" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/9577d4f1-d034-4422-9f9c-a21a8c75b5f9">
+
+## At the end you can ssh into your VPC by following these instructions
+
+<img width="1438" alt="Screenshot 2024-02-11 at 7 42 09" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/c2e2f1f2-b13b-43eb-9945-3806ca5fa444">
+
 
 ## After Setting up the EC2 instance on AWS
 <img width="852" alt="Screenshot 2024-01-31 at 22 44 03" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/7957fc6c-4b56-4745-a9d2-5d1ff8550be7">
