@@ -18,6 +18,12 @@ This project focuses on the transmission of sensor data from the IoT testbed ser
 git clone git@github.com:Mobusshar/iot-project-msc-oulu-2024.git
 ```
 
+###Clone the RIOT server as well using this command
+
+```bash
+git clone https://github.com/RIOT-OS/RIOT.git
+```
+
 # IoT-project
 ## AWS SETUP
 For the last part of the project, we need to setup an AWS  and after that, we have a server to get data from the IoT testbed.
