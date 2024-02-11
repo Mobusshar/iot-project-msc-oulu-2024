@@ -52,6 +52,10 @@ for each subnet, you need to create a route table.
 ## After Setting up the EC2 instance on AWS
 <img width="852" alt="Screenshot 2024-01-31 at 22 44 03" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/7957fc6c-4b56-4745-a9d2-5d1ff8550be7">
 
+Now you can get access to the EC2 instance and it is ready
+
+<img width="705" alt="Screenshot 2024-02-11 at 7 48 52" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/f42c4724-5bcd-4271-a4c8-64ed8a7b3552">
+
 Install docker and install node-red and influxdb on the ec2 instance.
 
 <img width="1440" alt="Screenshot 2024-01-31 at 23 14 04" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/f3527051-1321-4332-a3b0-8b1795747d7a">
@@ -60,7 +64,6 @@ Install docker and install node-red and influxdb on the ec2 instance.
 ### Connect and build three nodes like this in the picture
 
 <img width="1148" alt="Screenshot 2024-02-11 at 7 11 30" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/d46f274a-f73b-47b1-843d-33ab3961bafe">
-
 
 and go to the Testbed directory /mini-project-1/main/ and follow the commands below
 
