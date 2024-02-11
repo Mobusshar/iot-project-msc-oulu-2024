@@ -39,6 +39,7 @@ git checkout 2022.01
 ## AWS SETUP
 For the last part of the project, we need to setup an AWS  and after that, we have a server to get data from the IoT testbed.
 so in order to do that we need to setup a server and I will explain the steps through it.
+
 ## First step, VPC
 A virtual private cloud (VPC) is a secure, isolated private cloud hosted within a public cloud. VPC customers can run code, store data, host websites, and do anything else they could do in an ordinary private cloud, but the private cloud is hosted remotely by a public cloud provider. So we need to create VPC after the account setup in AWS. For VPC setup we need to take care of the IPv6 CIDR block.
 
@@ -100,7 +101,15 @@ docker run --detach --name influxdb -p 8086:8086 influxdb:2.2.0
 <img width="1440" alt="Screenshot 2024-01-31 at 23 14 04" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/f3527051-1321-4332-a3b0-8b1795747d7a">
 
 ## Testbed Preparation
-### Connect and build three nodes like this in the picture
+### Connect and build three nodes from this
+
+<img width="1439" alt="Screenshot 2024-02-11 at 8 17 42" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/2a25ab20-1309-47e0-a202-532a845bd42f">
+
+Create 3 nodes. 1 A8 nodes and 2 m3 nodes
+
+<img width="1439" alt="Screenshot 2024-02-11 at 8 20 48" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/c93e947d-12a2-452b-964b-3a9abd18dd29">
+
+In the end your experiment will look something like this
 
 <img width="1148" alt="Screenshot 2024-02-11 at 7 11 30" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/d46f274a-f73b-47b1-843d-33ab3961bafe">
 
