@@ -135,17 +135,6 @@ Consider writing reboot if it says unable to connect
 
 
 
-
-
-
-
-
-
-
-
-## Demo video
-
-
 ## License
 MIT License
 
