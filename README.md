@@ -138,7 +138,7 @@ iotlab-node --flash ./bin/iotlab-m3/SensorNode.elf -l grenoble,m3,<node-id>
 This is to check the sensor data from the RIOT server
 
 ```bash
-nc m3-104 20000
+nc m3-<node-id> 20000
 ```
 
 Consider writing reboot if it says unable to connect
