@@ -73,7 +73,7 @@ Now you can get access to the EC2 instance and it is ready
 
 <img width="705" alt="Screenshot 2024-02-11 at 7 48 52" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/f42c4724-5bcd-4271-a4c8-64ed8a7b3552">
 
-##Install docker by following these commands
+## Install docker by following these commands
 
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
@@ -115,7 +115,7 @@ In the end your experiment will look something like this
 
 ## These three node ids will be used later in the commands so please replace <node-id> with your created node ID from the IoT-test server
 
-##Go to the Testbed directory /mini-project-1/main/ and follow the commands below
+## Go to the Testbed directory /mini-project-1/main/ and follow the commands below
 
 ### To build a router border follow this
 
