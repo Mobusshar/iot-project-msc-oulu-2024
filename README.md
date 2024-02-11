@@ -23,14 +23,17 @@ git clone git@github.com:Mobusshar/iot-project-msc-oulu-2024.git
 For the last part of the project, we need to setup an AWS  and after that, we have a server to get data from the IoT testbed.
 so in order to do that we need to setup a server and I will explain the steps through it.
 ## First step, VPC
-A virtual private cloud (VPC) is a secure, isolated private cloud hosted within a public cloud. VPC customers can run code, store data, host websites, and do anything else they could do in an ordinary private cloud, but the private cloud is hosted remotely by a public cloud provider. So we need to create VPC after the account setup in AWS. For VPC setup we need to take care of the IPv4 CIDR block because we should have enough ipis so we can use 10.0.0.0/24 to get 256 ipis. 
-![image](https://github.com/Damonmehrpour/iot-project/assets/60698413/dd3e89ac-641d-4688-b35e-652b16c63b41)
+A virtual private cloud (VPC) is a secure, isolated private cloud hosted within a public cloud. VPC customers can run code, store data, host websites, and do anything else they could do in an ordinary private cloud, but the private cloud is hosted remotely by a public cloud provider. So we need to create VPC after the account setup in AWS. For VPC setup we need to take care of the IPv6 CIDR block.
+
+<img width="1438" alt="Screenshot 2024-02-11 at 7 34 20" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/4254551f-7c4b-42e8-b4e8-92cae0ff37c8">
+
+
 ## Second step, Subnet
 We created two subnets one for the public for apps and everything that can be public and one private just in case of things we do not want to everyone have access to it.
-![image](https://github.com/Damonmehrpour/iot-project/assets/60698413/e4d0a3b5-ce3a-442c-9292-ca7a6da8ceae)
- Remember in IPv4 CIDR block you can use anything but 10.0.0.0 .
+
+<img width="1438" alt="Screenshot 2024-02-11 at 7 36 30" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/cb0d54b4-f8d3-4564-8bb1-1dcc65c40380">
+
 ## Third step, Launch Stance
-You can TRY but it won't work!
 So you need an internet gateway before the instance works.
 ![image](https://github.com/Damonmehrpour/iot-project/assets/60698413/19d9c6f4-0070-42cd-84ef-fae200b4dfb3)
 Then you need to attach VPC to the Internet gateway but there will be a last step before you set things up and it is :
