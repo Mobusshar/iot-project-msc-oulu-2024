@@ -55,7 +55,21 @@ Now you can get access to the EC2 instance and it is ready
 
 <img width="705" alt="Screenshot 2024-02-11 at 7 48 52" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/f42c4724-5bcd-4271-a4c8-64ed8a7b3552">
 
-Install docker and install node-red and influxdb on the ec2 instance.
+##Install docker by following these commands
+
+```bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+Test the docker container by this command
+
+```bash
+sudo docker run hello-world
+```
+
+Install node-red and influxdb on the ec2 instance.
+
+
 
 <img width="1440" alt="Screenshot 2024-01-31 at 23 14 04" src="https://github.com/Mobusshar/iot-project-msc-oulu-2024/assets/41119987/f3527051-1321-4332-a3b0-8b1795747d7a">
 
