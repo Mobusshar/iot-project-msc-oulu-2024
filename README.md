@@ -1,5 +1,10 @@
 # Project Name: IoT Mini Project 1
 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/mobusshar/iot-project-msc-oulu-2024)
+![GitHub last commit](https://img.shields.io/github/last-commit/mobusshar/iot-project-msc-oulu-2024)
+
+
+
 ## Description
 
 This project focuses on the transmission of sensor data from the IoT testbed server to a cloud-based storage system. The primary objective is to establish a seamless and efficient communication channel that enables the transfer of valuable sensor information from the IoT testbed to the cloud infrastructure. By implementing this connectivity, the project aims to facilitate centralized storage and analysis of sensor data, enhancing accessibility and scalability for future applications and research endeavors within the Internet of Things (IoT) domain.
