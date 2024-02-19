@@ -2,6 +2,11 @@
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/mobusshar/iot-project-msc-oulu-2024)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mobusshar/iot-project-msc-oulu-2024)
+![GitHub top language](https://img.shields.io/github/languages/top/mobusshar/iot-project-msc-oulu-2024)
+![GitHub language count](https://img.shields.io/github/languages/count/mobusshar/iot-project-msc-oulu-2024)
+![GitHub License](https://img.shields.io/github/license/mobusshar/iot-project-msc-oulu-2024)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mobusshar/iot-project-msc-oulu-2024)
+![GitHub repo size](https://img.shields.io/github/repo-size/mobusshar/iot-project-msc-oulu-2024)
 
 
 
