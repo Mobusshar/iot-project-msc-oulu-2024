@@ -7,6 +7,7 @@
 ![GitHub License](https://img.shields.io/github/license/mobusshar/iot-project-msc-oulu-2024)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mobusshar/iot-project-msc-oulu-2024)
 ![GitHub repo size](https://img.shields.io/github/repo-size/mobusshar/iot-project-msc-oulu-2024)
+![GitHub forks](https://img.shields.io/github/forks/mobusshar/iot-project-msc-oulu-2024)
 
 
 
